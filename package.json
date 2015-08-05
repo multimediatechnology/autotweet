@@ -1,0 +1,25 @@
+{
+  "name": "autotweet",
+  "version": "1.0.0",
+  "description": "MediaCube tweetbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multimediatechnology/autotweet.git"
+  },
+  "keywords": [
+    "MediaCube",
+    "MMT",
+    "MultiMediaTechnology",
+    "Twitter"
+  ],
+  "author": "Hannes Moser <hannes@impossiblearts.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/multimediatechnology/autotweet/issues"
+  },
+  "homepage": "https://github.com/multimediatechnology/autotweet#readme"
+}
