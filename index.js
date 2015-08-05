@@ -21,6 +21,9 @@ var DATA_PATH = path.join(__dirname, 'data')
 var users = fs.readFileSync(path.join(DATA_PATH, 'names.json'), 'utf8')
 users = JSON.parse(users)
 
+// take subset
+users = users.slice(300, 310)
+
 async.eachLimit(
   users, 10,
   function(user, done) {
