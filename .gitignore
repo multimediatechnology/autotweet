@@ -13,3 +13,8 @@ coverage
 
 # deps
 node_modules
+
+# app
+.env
+data
+sources
